@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simon Says</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <section class="nivel" id="tableroNivel">
+      <h3>Level</h3>
+      <p id="estadoNivel"></p>
+    </section>
+
+    <section class="titulo">
+      <h1>Simon says</h1>
+    </section>
+
+    <section class="vidas" id="tableroVidas">
+    </section>
+  </header>
+  <div class="gameboard">
+    <div id="azul" class="color azul left" data-color="azul"></div>
+    <div id="violeta" class="color violeta right" data-color="violeta"></div>
+    <div id="naranja" class="color naranja left" data-color="naranja"></div>
+    <div id="verde" class="color verde right" data-color="verde"></div>
+    <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">
+      START!
+    </button>
+
+
+  </div>
+
+  <section class="audios">
+    <audio src="audio/DO.wav" id="notaDo" preload="auto"></audio>
+    <audio src="audio/FA.wav" id="notaFa" preload="auto"></audio>
+    <audio src="audio/LA.wav" id="notaLa" preload="auto"></audio>
+    <audio src="audio/MI.wav" id="notaMi" preload="auto"></audio>
+    <audio src="audio/RE.wav" id="notaRe" preload="auto"></audio>
+    <audio src="audio/SI.wav" id="notaSi" preload="auto"></audio>
+    <audio src="audio/SOL.wav" id="notaSol" preload="auto"></audio>
+  </section>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

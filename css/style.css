@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  background: #dedede;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #2c3e50;
+}
+
+.gameboard {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 60vh;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.azul {
+  background: #22a6b3;
+}
+
+.azul.light {
+  background: #7ed6df;
+}
+
+.violeta {
+  background: #be2edd;
+}
+
+.violeta.light {
+  background: #e056fd;
+}
+
+.naranja {
+  background: #f0932b;
+}
+
+.naranja.light {
+  background: #ffbe76;
+}
+
+.verde {
+  background: #6ab04c;
+}
+
+.verde.light {
+  background: #badc58;
+}
+
+.btn-start {
+  width: 400px;
+  height: 100px;
+  background: #ecf0f1;
+  opacity: 0.9;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 200px);
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  background-color: #22a7b3a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  justify-content: space-between;
+}
+
+.nivel {
+  background-color:#E63462;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 0px;
+  width: 70px;
+  height: 74px;
+  visibility: hidden;
+}
+
+.nivel h3 {
+  color: #C7EFCF;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.nivel p {
+  margin-top: 0px;
+  padding: 0;
+  height: 10px;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.titulo {
+  font-family: sans-serif;
+  font-style: oblique;
+  font-stretch: extra-condensed;
+  text-transform: uppercase;
+  font-size: x-large;
+}
+
+.oportunidades {
+  margin-right: 10px;
+  margin-left: 0px;
+  width: 33px;
+  height: 33px;
+}
+
+.audios {
+  display: none;
+}
